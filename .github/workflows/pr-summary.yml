@@ -16,7 +16,7 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Generate PR Summary
-              uses: Farnsworth-Enterprises/Morbo@v1.0.2
+              uses: Farnsworth-Enterprises/Morbo@v1.0.3
               with:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
                   ollama-url: ${{ secrets.OLLAMA_URL }}
